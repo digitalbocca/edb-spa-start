@@ -7,7 +7,16 @@
 </template>
 
 <script>
+
+import { mapActions } from 'vuex'
+
 export default {
-  name: 'App'
+  name: 'App',
+  methods: {
+    ...mapActions(['syncUsers'])
+  },
+  mounted () {
+    this.syncUsers()
+  }
 }
 </script>
