@@ -2,7 +2,7 @@
 
 ## edb-spa-start
 
-### v0.4.0
+### v0.5.0
 
 ## DESCRIÇÃO
 
@@ -23,6 +23,10 @@
 - ( ) - PWA
 
 ## CHANGELOG
+
+### Mudanças na v0.5.0
+
+- Alterações no controle de versão.
 
 ### Mudanças na v0.4.0
 

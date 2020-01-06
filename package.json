@@ -1,6 +1,6 @@
 {
   "name": "edb-spa-start",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Um conjunto de ferramentas pré configurado para SPA utilizando Vue, PUG, SASS, Parcel Bundler e Firebase.",
   "main": "index.js",
   "scripts": {
