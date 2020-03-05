@@ -13,7 +13,7 @@
             a(href="https://pixabay.com/pt/users/jplenio-7645255/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4563464") Johannes Plenio 
             | por 
             a(href="https://pixabay.com/pt/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4563464") Pixabay
-          p 2019 - Estúdio Digital Bocca
+          p 2019-2020 Estúdio Digital Bocca
 </template>
 
 <script>

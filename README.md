@@ -2,7 +2,7 @@
 
 ## edb-spa-start
 
-### v0.5.0
+### v0.6.0
 
 ## DESCRIÇÃO
 
@@ -23,6 +23,19 @@
 - ( ) - PWA
 
 ## CHANGELOG
+
+### Mudanças na v0.6.0
+
+- CDN Bootstrap carrega no arquivo SASS.
+- Atualização de dependências.
+
+### Mudanças na v0.5.2
+
+- Merge pull request #2 from digitalbocca/dependabot/npm_and_yarn/serialize-to-js-3.0.2
+
+### Mudanças na v0.5.1
+
+- Alterações no controle de versão.
 
 ### Mudanças na v0.5.0
 
