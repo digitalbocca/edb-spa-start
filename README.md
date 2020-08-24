@@ -1,8 +1,21 @@
-# Estúdio Digital Bocca
+<p align="center">
+  <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
+  <p align="center">Ultima Atualização na v0.7.0</p>
+  <h1 align="center">edb-spa-start</h1>
+  <h4 align="center">
+    Configuração inicial para uma SPA.
+  </h4>
+  <p align="center">
+    <img src="https://badgen.net/badge/version/v0.7.0/orange">
+  </p>
+  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+</p>
 
-## edb-spa-start
+---
 
-### v0.6.0
+# EDB SPA Start - README
+
+---
 
 ## DESCRIÇÃO
 
@@ -23,6 +36,14 @@
 - ( ) - PWA
 
 ## CHANGELOG
+
+### Mudanças na v0.7.0
+
+- Arquivos .md seguem o padrão EDB2020.
+- Atualizado CDN Bootstrap.
+- Adicionado script de build.
+- Configurado plugin que limpa a pasta de dist/docs.
+- Atualização de dependências.
 
 ### Mudanças na v0.6.0
 

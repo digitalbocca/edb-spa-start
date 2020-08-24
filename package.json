@@ -1,11 +1,16 @@
 {
   "name": "edb-spa-start",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Um conjunto de ferramentas pré configurado para SPA utilizando Vue, PUG, SASS, Parcel Bundler e Firebase.",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.pug -p 8080 --no-cache"
+    "dev": "parcel ./src/index.pug -p 8080 --no-cache -d docs",
+    "build": "parcel build ./src/index.pug --no-cache --no-source-maps -d docs"
   },
+  "parcelCleanPaths": [
+    "dist",
+    "docs"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digitalbocca/edb-spa-start.git"
@@ -25,21 +30,21 @@
   },
   "homepage": "https://github.com/digitalbocca/edb-spa-start#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/plugin-transform-runtime": "^7.8.3",
-    "@vue/component-compiler-utils": "^3.1.1",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@vue/component-compiler-utils": "^3.2.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-clean-easy": "^1.0.2",
-    "pug": "^2.0.4",
-    "sass": "^1.26.2",
-    "standard": "^14.3.1",
-    "vue-template-compiler": "^2.6.11"
+    "pug": "^3.0.0",
+    "sass": "^1.26.10",
+    "standard": "^14.3.4",
+    "vue-template-compiler": "^2.6.12"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "vue": "^2.6.11",
+    "axios": "^0.20.0",
+    "vue": "^2.6.12",
     "vue-hot-reload-api": "^2.3.4",
-    "vue-router": "^3.1.6",
-    "vuex": "^3.1.2"
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1"
   }
 }
