@@ -1,12 +1,12 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v0.7.0</p>
+  <p align="center">Ultima Atualização na v0.8.0</p>
   <h1 align="center">edb-spa-start</h1>
   <h4 align="center">
     Configuração inicial para uma SPA.
   </h4>
   <p align="center">
-    <img src="https://badgen.net/badge/version/v0.7.0/orange">
+    <img src="https://badgen.net/badge/version/v0.8.0/orange">
   </p>
   <p align="center">(c)2020 - Estúdio Digital Bocca</p>
 </p>
@@ -35,7 +35,25 @@
 - ( ) - Purge CSS
 - ( ) - PWA
 
+## INSTRUÇÕES
+
+Utilize o create-edb-app:
+
+```bash
+npm init @digitalbocca/edb-app spa-start ./caminho/do/projeto
+```
+
+- Entre na pasta.
+- Instale as dependências.
+- Modifique para sua necessidade.
+
 ## CHANGELOG
+
+### Mudanças na v0.8.0
+
+- Branch principal trocada para main.
+- Atualizado CDN Bootstrap.
+- Atualização de dependências.
 
 ### Mudanças na v0.7.0
 
