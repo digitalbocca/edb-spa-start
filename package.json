@@ -1,16 +1,16 @@
 {
   "name": "edb-spa-start",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Um conjunto de ferramentas pré configurado para SPA utilizando Vue, PUG, SASS, Parcel Bundler e Firebase.",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel ./src/index.pug -p 8080 --no-cache -d docs",
-    "build": "parcel build ./src/index.pug --no-cache --no-source-maps -d docs"
+    "clean-cache": "rm -rf ./.parcel-cache",
+    "clean-dist": "rm -rf ./docs",
+    "clean-all": "npm run clean-cache && npm run clean-dist",
+    "prebuild": "npm run clean-all",
+    "predev": "npm run clean-all",
+    "dev": "parcel serve ./src/index.pug -p 8080 --no-cache --dist-dir docs --public-url '/'",
+    "build": "parcel build ./src/index.pug --no-cache --no-source-maps --dist-dir docs --public-url '/'"
   },
-  "parcelCleanPaths": [
-    "dist",
-    "docs"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digitalbocca/edb-spa-start.git"
@@ -30,21 +30,25 @@
   },
   "homepage": "https://github.com/digitalbocca/edb-spa-start#readme",
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@babel/plugin-transform-runtime": "^7.12.1",
-    "@vue/component-compiler-utils": "^3.2.0",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-clean-easy": "^1.0.2",
-    "pug": "^3.0.0",
-    "sass": "^1.29.0",
-    "standard": "^16.0.3",
-    "vue-template-compiler": "^2.6.12"
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@parcel/transformer-pug": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "@parcel/transformer-vue": "^2.0.0-rc.0",
+    "@vue/component-compiler-utils": "^3.2.2",
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.6",
+    "pug": "^3.0.2",
+    "sass": "^1.39.0",
+    "standard": "^16.0.3"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-router": "^3.4.9",
-    "vuex": "^3.5.1"
+    "axios": "^0.21.4",
+    "vue": "^3.2.9",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2"
+  },
+  "app": {
+    "publicUrl": "/"
   }
 }

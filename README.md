@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://estudiodigitalbocca.com.br/edb-logo.svg" width="200px">
-  <p align="center">Ultima Atualização na v0.8.0</p>
+  <p align="center">Ultima Atualização na v0.9.0</p>
   <h1 align="center">edb-spa-start</h1>
   <h4 align="center">
     Configuração inicial para uma SPA.
@@ -8,7 +8,7 @@
   <p align="center">
     <img src="https://badgen.net/badge/version/v0.8.0/orange">
   </p>
-  <p align="center">(c)2020 - Estúdio Digital Bocca</p>
+  <p align="center">(c)2020-2021 Estúdio Digital Bocca</p>
 </p>
 
 ---
@@ -48,6 +48,13 @@ npm init @digitalbocca/edb-app spa-start ./caminho/do/projeto
 - Modifique para sua necessidade.
 
 ## CHANGELOG
+
+### Mudanças na v0.9.0
+
+- Atualiza CDN Bootstrap.
+- Migra para Parcel 2.
+- Migra para Vue 3+
+- Atualiza dependências.
 
 ### Mudanças na v0.8.0
 
